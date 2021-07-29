@@ -14,7 +14,7 @@
 // Compared with the official version, it uses mattn/go-runewidth at https://github.com/mattn/go-runewidth to calculate the variable width of unicode characters to adds more support to most (but not all) Chinese/Japanese/Korean characters, emojis, "fullwidth" Latin characters, etc.
 // Since the official version is already frozen，i create this extended version.
 
-// looking for more information with this issue text/tabwriter: character width #8273 at
+// Looking for more information with this issue text/tabwriter: character width #8273 at
 // https://github.com/golang/go/issues/8273.
 package tabwriter
 
