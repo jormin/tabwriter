@@ -198,7 +198,7 @@ const (
 	Debug
 )
 
-// A Writer must be initialized with a call to Init. The first parameter (output)
+// Init A Writer must be initialized with a call to Init. The first parameter (output)
 // specifies the filter output. The remaining parameters control the formatting:
 //
 //	minwidth	minimal cell width including any padding
@@ -425,7 +425,7 @@ func (b *Writer) updateWidth() {
 	b.pos = len(b.buf)
 }
 
-// To escape a text segment, bracket it with Escape characters.
+// Escape To escape a text segment, bracket it with Escape characters.
 // For instance, the tab in this string "Ignore this tab: \xff\t\xff"
 // does not terminate a cell and constitutes a single character of
 // width one for formatting purposes.
