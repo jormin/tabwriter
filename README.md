@@ -8,7 +8,7 @@ tabwriter
 
 This is an extended version of [text/tabwriter](https://github.com/golang/go/blob/master/src/text/tabwriter/tabwriter.go).
 
-Compared with the official version, it uses [jormin/tabwriter](https://github.com/jormin/tabwriter) to calculate the variable width of unicode characters to adds more support to most (but not all) Chinese/Japanese/Korean characters, emojis, "fullwidth" Latin characters, etc. 
+Compared with the official version, it uses [mattn/go-runewidth](https://github.com/mattn/go-runewidth) to calculate the variable width of unicode characters to adds more support to most (but not all) Chinese/Japanese/Korean characters, emojis, "fullwidth" Latin characters, etc. 
 
 Since the official version is already frozen，i create this extended version.
 
