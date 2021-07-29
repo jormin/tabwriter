@@ -372,18 +372,6 @@ var tests = []struct {
 
 	{
 		"12a",
-		8, 0, 1, ' ', AlignRight,
-		"a\tè\tc\t\n" +
-			"aa\tèèè\tcccc\tddddd\t\n" +
-			"aaa\tèèèè\t\n",
-
-		"       a       è       c\n" +
-			"      aa   èèè    cccc   ddddd\n" +
-			"     aaa èèèè\n",
-	},
-
-	{
-		"12b",
 		2, 0, 0, ' ', 0,
 		"a\tb\tc\n" +
 			"aa\tbbb\tcccc\n" +
@@ -395,7 +383,7 @@ var tests = []struct {
 	},
 
 	{
-		"12c",
+		"12b",
 		8, 0, 1, '_', 0,
 		"a\tb\tc\n" +
 			"aa\tbbb\tcccc\n" +
